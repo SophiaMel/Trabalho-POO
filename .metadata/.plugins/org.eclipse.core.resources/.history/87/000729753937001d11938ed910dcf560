@@ -1,0 +1,11 @@
+package questao1;
+import javax.swing.JOPtionPane;
+public class Principal {
+
+	public static void main(String[] args) {
+		int nota1 = Integer.parseInt(JOptionPane.showInputDialog("Digite sua nota 1"));
+		// TODO Auto-generated method stub
+
+	}
+
+}

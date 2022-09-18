@@ -1,0 +1,12 @@
+package questao21;
+import javax.swing.JOptionPane;
+public class principal {
+	
+	int x = Integer.parseInt(JOptionPane.showInputDialog("digite a altura em que se deseja pregar o quadro:"));
+	int z = Integer.parseInt(JOptionPane.showInputDialog("digite o tamanho da escada:"));
+	int y = (z*z - x*x);
+	String msg = "a distancia da escada da parede é:" +  y;
+	JOptionpane.showInternalMessageDialog(null,msg);
+
+  }
+}
